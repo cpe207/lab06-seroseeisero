@@ -9,11 +9,11 @@ const getUser = async (userId: number) => {
     const user = userresp.data;
     return user.name;
   }
+  
   catch(err){
     return 'INVALID USER ID';
   }
 };
-  
   //test case
   const input1 = 1;
   const input2 = 100;
