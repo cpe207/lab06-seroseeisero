@@ -1,7 +1,7 @@
 {
   "name": "lab_06",
   "version": "1.0.0",
-  "description": "",
+  "description": "รหัส นศ.:",
   "main": "index.js",
   "devDependencies": {
     "@babel/core": "*",
