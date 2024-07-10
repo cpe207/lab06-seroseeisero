@@ -18,7 +18,7 @@ const getTodo = async (todoId: number) => {
       completed: todo.completed,
     }
   }
-  catch (error) {
+  catch (err) {
     return 'INVALID TODO ID';
 }
 };
